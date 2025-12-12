@@ -8,6 +8,7 @@ SongInfo = {
     ['6006'] = { 'The Contract', 'Twenty One Pilots' },
     ['6009'] = { 'Provider', 'Sleep Token' },
     ['6010'] = { 'Bad Habits', 'KUURO' },
+    ['6011'] = { 'Where Have You Been', 'Drinks On Me'},
 }
 
 CustomStations = {
