@@ -61,10 +61,6 @@
           <Context/>
           <SoundRef>badhabits_song</SoundRef>
         </Item>
-        <Item>
-          <Context/>
-          <SoundRef>wherehaveyoubeen_song</SoundRef>
-        </Item>
       </Tracks>
     </Item>
 
@@ -242,6 +238,35 @@
       </Tracks>
     </Item>
 
+    <!-- Ninth Radio Station Track List -->
+    <Item type="RadioStationTrackList" ntOffset="0">
+      <Name>obsongs_radiotrack09</Name>
+      <Unk00 value="0xAAAAAAA4"/>
+      <TrackType value="2"/>
+      <Unk01 value="0"/>
+      <Unk02 value="0"/>
+      <Unk03 value="1"/> <!-- Number of tracks -->
+      <Unk04 value="0"/>
+      <Unk05 value="0"/>
+      <Unk06 value="0"/>
+      <Unk07 value="0"/>
+      <Unk08 value="0"/>
+      <Unk09 value="0"/>
+      <Unk10 value="0"/>
+      <Unk11 value="0"/>
+      <Unk12 value="0"/>
+      <Unk13 value="0"/>
+      <Unk14 value="0"/>
+      <Unk15 value="0"/>
+      <Unk16 value="0"/>
+      <Tracks>
+        <Item>
+          <Context/>
+          <SoundRef>wherehaveyoubeen_song</SoundRef>
+        </Item>
+      </Tracks>
+    </Item>
+
     <!-- First Radio Station Settings -->
     <Item type="RadioStationSettings" ntOffset="0">
       <Name>ob_radio_station</Name>
@@ -354,6 +379,20 @@
       </TrackList>
     </Item>
 
+    <!-- Ninth Radio Station Settings -->
+    <Item type="RadioStationSettings" ntOffset="0">
+      <Name>ob_radio_station_9</Name>
+      <Unk00 value="0xAA9009AB"/>
+      <WheelPosition value="30008"/>
+      <Unk02 value="0"/>
+      <MusicGenre value="2"/>
+      <RadioName>OB_RADIO_9</RadioName>
+      <Unk04 value="0"/>
+      <TrackList>
+        <Item>obsongs_radiotrack09</Item>
+      </TrackList>
+    </Item>
+
     <!-- Radio Station List -->
     <Item type="RadioStationList" ntOffset="0">
       <Name>radio_stations_dlc</Name>
@@ -366,6 +405,7 @@
         <Item>ob_radio_station_6</Item>
         <Item>ob_radio_station_7</Item>
         <Item>ob_radio_station_8</Item>
+        <Item>ob_radio_station_9</Item>
       </Stations>
     </Item>
   </Items>

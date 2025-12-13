@@ -55,6 +55,12 @@ CustomStations = {
         id = 'OB_RADIO_8',
         label = '24/7 Twenty One Pilots',
         trackList = 'obsongs_radiotrack08',
+    },
+    {
+        
+        id = 'OB_RADIO_9',
+        label = '24/7 Drinks On Me',
+        trackList = 'obsongs_radiotrack09',
     }
 }
 
