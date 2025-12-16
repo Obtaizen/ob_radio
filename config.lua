@@ -9,6 +9,7 @@ SongInfo = {
     ['6009'] = { 'Provider', 'Sleep Token' },
     ['6010'] = { 'Bad Habits', 'KUURO' },
     ['6011'] = { 'Where Have You Been', 'Drinks On Me'},
+    ['6012'] = { 'Big Bands', 'Lil Cap ft. P Money'},
 }
 
 CustomStations = {
@@ -61,6 +62,12 @@ CustomStations = {
         id = 'OB_RADIO_9',
         label = '24/7 Drinks On Me',
         trackList = 'obsongs_radiotrack09',
+    },
+    {
+        
+        id = 'OB_RADIO_10',
+        label = '24/7 Racing Anthems',
+        trackList = 'obsongs_radiotrack10',
     }
 }
 
