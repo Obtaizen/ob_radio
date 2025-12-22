@@ -13,6 +13,8 @@
     <Item>songdirectory\contract</Item>
     <Item>songdirectory\wherehaveyoubeen</Item>
     <Item>songdirectory\bigbands</Item>
+    <Item>songdirectory\takeonme</Item>
+    <Item>songdirectory\lastchristmas</Item>
   </ContainerPaths>
 
   <Items>
@@ -465,6 +467,88 @@
       </Header>
       <ContainerName>songdirectory/bigbands</ContainerName>
       <FileName>bigbands_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>takeonme_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="243985"/>
+      <ChildSounds>
+        <Item>takeonme_left_simple</Item>
+        <Item>takeonme_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>takeonme_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/takeonme</ContainerName>
+      <FileName>takeonme_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>takeonme_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/takeonme</ContainerName>
+      <FileName>takeonme_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>lastchristmas_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="278362"/>
+      <ChildSounds>
+        <Item>lastchristmas_left_simple</Item>
+        <Item>lastchristmas_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>lastchristmas_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/lastchristmas</ContainerName>
+      <FileName>lastchristmas_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>lastchristmas_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/lastchristmas</ContainerName>
+      <FileName>lastchristmas_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>

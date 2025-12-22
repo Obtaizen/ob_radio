@@ -10,6 +10,8 @@ SongInfo = {
     ['6010'] = { 'Bad Habits', 'KUURO' },
     ['6011'] = { 'Where Have You Been', 'Drinks On Me'},
     ['6012'] = { 'Big Bands', 'Lil Cap ft. P Money'},
+    ['6013'] = { 'Take On Me', 'a-ha'},
+    ['6014'] = { 'Wham', 'Take On Me'},
 }
 
 CustomStations = {
@@ -68,6 +70,18 @@ CustomStations = {
         id = 'OB_RADIO_10',
         label = '24/7 Racing Anthems',
         trackList = 'obsongs_radiotrack10',
+    },
+    {
+        
+        id = 'OB_RADIO_11',
+        label = '24/7 80s Hits',
+        trackList = 'obsongs_radiotrack11',
+    },
+    {
+        
+        id = 'OB_RADIO_12',
+        label = '24/7 Christmas Songs',
+        trackList = 'obsongs_radiotrack12',
     }
 }
 
