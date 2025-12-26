@@ -3,13 +3,21 @@ game 'gta5'
 
 lua54 'yes'
 
-shared_script 'config.lua'
 client_script 'client.lua'
+
+shared_script {
+	'@ox_lib/init.lua',
+	'config.lua'
+}
 
 files {
 	'data/obsongs_sound.dat54.rel',
 	'data/obsongs_game.dat151.rel',
 	'songdirectory/*.awc',
+}
+
+dependency {
+	'ox_lib'
 }
 
 data_file 'AUDIO_WAVEPACK' 'songdirectory'
