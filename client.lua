@@ -27,3 +27,20 @@ CreateThread(function()
         print("[Radio] Default GTA V stations hidden.")
     end
 end)
+
+local isRadioControlDisabled = false
+
+lib.onCache('vehicle', function(value)
+    if not value then return end
+
+    if GetVehicleClass(value) == 18 then
+        SetUserRadioControlEnabled(false)
+        SetVehRadioStation(value, 'OFF')
+        isRadioControlDisabled = true
+    else
+        if isRadioControlDisabled then
+            SetUserRadioControlEnabled(true)
+            isRadioControlDisabled = false
+        end
+    end
+end)
