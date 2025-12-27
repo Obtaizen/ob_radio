@@ -28,6 +28,7 @@ CreateThread(function()
     end
 end)
 
+-- Disable radio control in Emergency Vehicles
 local isRadioControlDisabled = false
 
 lib.onCache('vehicle', function(value)
