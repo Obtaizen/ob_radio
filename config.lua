@@ -11,7 +11,7 @@ SongInfo = {
     ['6011'] = { 'Where Have You Been', 'Drinks On Me'},
     ['6012'] = { 'Big Bands', 'Lil Cap ft. P Money'},
     ['6013'] = { 'Take On Me', 'a-ha'},
-    ['6014'] = { 'Wham', 'Take On Me'},
+    ['6014'] = { 'Dave', 'Verdansk'},
 }
 
 CustomStations = {
@@ -80,7 +80,7 @@ CustomStations = {
     {
         
         id = 'OB_RADIO_12',
-        label = '24/7 Christmas Songs',
+        label = '24/7 Dave FM',
         trackList = 'obsongs_radiotrack12',
     }
 }

@@ -14,7 +14,7 @@
     <Item>songdirectory\wherehaveyoubeen</Item>
     <Item>songdirectory\bigbands</Item>
     <Item>songdirectory\takeonme</Item>
-    <Item>songdirectory\lastchristmas</Item>
+    <Item>songdirectory\verdansk</Item>
   </ContainerPaths>
 
   <Items>
@@ -512,7 +512,7 @@
     </Item>
 
     <Item type="StreamingSound">
-      <Name>lastchristmas_song</Name>
+      <Name>verdansk_song</Name>
       <Header>
         <Flags value="0x0180C001"/>
         <Flags2 value="0xAA90AAAA"/>
@@ -523,32 +523,32 @@
       </Header>
       <Duration value="278362"/>
       <ChildSounds>
-        <Item>lastchristmas_left_simple</Item>
-        <Item>lastchristmas_right_simple</Item>
+        <Item>verdansk_left_simple</Item>
+        <Item>verdansk_right_simple</Item>
       </ChildSounds>
     </Item>
 
     <Item type="SimpleSound">
-      <Name>lastchristmas_left_simple</Name>
+      <Name>verdansk_left_simple</Name>
       <Header>
         <Flags value="0x00800040"/>
         <Pan value="307"/>
         <Unk20 value="0"/>
       </Header>
-      <ContainerName>songdirectory/lastchristmas</ContainerName>
-      <FileName>lastchristmas_left</FileName>
+      <ContainerName>songdirectory/verdansk</ContainerName>
+      <FileName>verdansk_left</FileName>
       <WaveSlotNum value="0"/>
     </Item>
 
     <Item type="SimpleSound">
-      <Name>lastchristmas_right_simple</Name>
+      <Name>verdansk_right_simple</Name>
       <Header>
         <Flags value="0x00800040"/>
         <Pan value="53"/>
         <Unk20 value="0"/>
       </Header>
-      <ContainerName>songdirectory/lastchristmas</ContainerName>
-      <FileName>lastchristmas_right</FileName>
+      <ContainerName>songdirectory/verdansk</ContainerName>
+      <FileName>verdansk_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>
