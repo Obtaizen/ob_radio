@@ -12,6 +12,8 @@ SongInfo = {
     ['6012'] = { 'Big Bands', 'Lil Cap ft. P Money'},
     ['6013'] = { 'Take On Me', 'a-ha'},
     ['6014'] = { 'Dave', 'Verdansk'},
+    ['6015'] = { 'Dave', 'Starlight'},
+    ['6016'] = { 'Dave', 'Raindance ft. Tems'},
 }
 
 CustomStations = {

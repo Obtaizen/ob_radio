@@ -15,6 +15,8 @@
     <Item>songdirectory\bigbands</Item>
     <Item>songdirectory\takeonme</Item>
     <Item>songdirectory\verdansk</Item>
+    <Item>songdirectory\starlight</Item>
+    <Item>songdirectory\raindance</Item>
   </ContainerPaths>
 
   <Items>
@@ -549,6 +551,88 @@
       </Header>
       <ContainerName>songdirectory/verdansk</ContainerName>
       <FileName>verdansk_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>starlight_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="212927"/>
+      <ChildSounds>
+        <Item>starlight_left_simple</Item>
+        <Item>starlight_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>starlight_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/starlight</ContainerName>
+      <FileName>starlight_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>starlight_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/starlight</ContainerName>
+      <FileName>starlight_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>raindance_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="221008"/>
+      <ChildSounds>
+        <Item>raindance_left_simple</Item>
+        <Item>raindance_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>raindance_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/raindance</ContainerName>
+      <FileName>raindance_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>raindance_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/raindance</ContainerName>
+      <FileName>raindance_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>
