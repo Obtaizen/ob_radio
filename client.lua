@@ -17,31 +17,28 @@ local function DisableRadioStations()
     end
 end
 
--- Only run the hiding logic once
-local radioDisabled = false
-
 CreateThread(function()
-    if not radioDisabled then
-        radioDisabled = true
-        DisableRadioStations()
-        print("[Radio] Default GTA V stations hidden.")
-    end
+    DisableRadioStations()
 end)
 
 -- Disable radio control in Emergency Vehicles
 local isRadioControlDisabled = false
 
 lib.onCache('vehicle', function(value)
-    if not value then return end
+    if not value then
+        if isRadioControlDisabled then
+            SetUserRadioControlEnabled(true)
+            isRadioControlDisabled = false
+        end
+        return
+    end
 
     if GetVehicleClass(value) == 18 then
         SetUserRadioControlEnabled(false)
         SetVehRadioStation(value, 'OFF')
         isRadioControlDisabled = true
-    else
-        if isRadioControlDisabled then
-            SetUserRadioControlEnabled(true)
-            isRadioControlDisabled = false
-        end
+    elseif isRadioControlDisabled then
+        SetUserRadioControlEnabled(true)
+        isRadioControlDisabled = false
     end
 end)

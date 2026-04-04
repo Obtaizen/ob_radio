@@ -17,6 +17,7 @@
     <Item>songdirectory\verdansk</Item>
     <Item>songdirectory\starlight</Item>
     <Item>songdirectory\raindance</Item>
+    <Item>songdirectory\daddycop</Item>
   </ContainerPaths>
 
   <Items>
@@ -633,6 +634,47 @@
       </Header>
       <ContainerName>songdirectory/raindance</ContainerName>
       <FileName>raindance_right</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="StreamingSound">
+      <Name>daddycop_song</Name>
+      <Header>
+        <Flags value="0x0180C001"/>
+        <Flags2 value="0xAA90AAAA"/>
+        <DopplerFactor value="0"/>
+        <Category>hash_45EB536F</Category>
+        <Unk20 value="0"/>
+        <Unk21 value="1"/>
+      </Header>
+      <Duration value="137692"/>
+      <ChildSounds>
+        <Item>daddycop_left_simple</Item>
+        <Item>daddycop_right_simple</Item>
+      </ChildSounds>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>daddycop_left_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="307"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/daddycop</ContainerName>
+      <FileName>daddycop_left</FileName>
+      <WaveSlotNum value="0"/>
+    </Item>
+
+    <Item type="SimpleSound">
+      <Name>daddycop_right_simple</Name>
+      <Header>
+        <Flags value="0x00800040"/>
+        <Pan value="53"/>
+        <Unk20 value="0"/>
+      </Header>
+      <ContainerName>songdirectory/daddycop</ContainerName>
+      <FileName>daddycop_right</FileName>
       <WaveSlotNum value="0"/>
     </Item>
   </Items>

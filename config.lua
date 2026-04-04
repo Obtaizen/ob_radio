@@ -6,14 +6,15 @@ SongInfo = {
     ['6004'] = { 'Pretty Toxic Revolver', 'Machine Gun Kelly' },
     ['6005'] = { 'Formula 1 Theme Live', 'Brian Tyler' },
     ['6006'] = { 'The Contract', 'Twenty One Pilots' },
+    ['6007'] = { 'Daddy Cop', 'Zander Hawley'},
     ['6009'] = { 'Provider', 'Sleep Token' },
     ['6010'] = { 'Bad Habits', 'KUURO' },
     ['6011'] = { 'Where Have You Been', 'Drinks On Me'},
     ['6012'] = { 'Big Bands', 'Lil Cap ft. P Money'},
     ['6013'] = { 'Take On Me', 'a-ha'},
-    ['6014'] = { 'Dave', 'Verdansk'},
-    ['6015'] = { 'Dave', 'Starlight'},
-    ['6016'] = { 'Dave', 'Raindance ft. Tems'},
+    ['6014'] = { 'Verdansk', 'Dave'},
+    ['6015'] = { 'Starlight', 'Dave'},
+    ['6016'] = { 'Raindance ft. Tems', 'Dave'},
 }
 
 CustomStations = {

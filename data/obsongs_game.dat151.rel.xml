@@ -61,6 +61,10 @@
           <Context/>
           <SoundRef>badhabits_song</SoundRef>
         </Item>
+        <Item>
+          <Context/>
+          <SoundRef>daddycop_song</SoundRef>
+        </Item>
       </Tracks>
     </Item>
 

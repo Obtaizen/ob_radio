@@ -16,7 +16,7 @@ files {
 	'songdirectory/*.awc',
 }
 
-dependency {
+dependencies {
 	'ox_lib'
 }
 
